@@ -1,0 +1,9 @@
+server:
+  port: 9804
+
+#spring
+spring:
+  profiles:
+    active: dev
+  resources:
+    static-locations: file:${oss.local.upload-file-path}
